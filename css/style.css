@@ -145,25 +145,24 @@ a.show-me-everything {
   padding-bottom: 60px;
 }
 
-.page-body .wrap {
+.latest-recipes .wrap {
   display: block;
 }
 
-.page-body .inner-wrap {
+.latest-recipes .inner-wrap {
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-
 }
 
-.page-body .inner-wrap .top {
+.latest-recipes .inner-wrap .top {
   display: flex;
   justify-content: space-between;
   gap: 12px;
   flex-wrap: wrap;
 }
 
-.page-body .inner-wrap .bottom {
+.latest-recipes .inner-wrap .bottom {
   align-self: center;
   margin-top: 30px;
 }
@@ -216,6 +215,50 @@ a.show-me-everything {
 .latest-recipes .show-me-everything {
   color: rgb(234 84 85);
 }
+
+.pick-of-the-week {
+  margin-bottom: 40px;
+}
+
+.pick-of-the-week .wrap {
+  display: block;
+}
+
+.pick-of-the-week .inner-wrap {
+  background-color: #fbf8f3;
+  box-shadow: 3px 3px 10px 0 rgb(0 0 0 / 20%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.pick-of-the-week .left {
+  color: #2a2b2a;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.pick-of-the-week .left p {
+  font-family: 'Courier New', monospace;
+  font-size: 24px;
+}
+
+.pick-of-the-week .left h3 {
+  font-size: 46px;
+}
+
+.pick-of-the-week a {
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  padding: 16px 32px;
+  border: 2px solid #2a2b2a;
+  border-radius: 4px;
+}
+
 
 /* font-family: 'Courier New', monospace; */
 
