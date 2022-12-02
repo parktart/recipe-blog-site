@@ -97,19 +97,6 @@ a:hover {
   padding: 14px;
 }
 
-@media screen and (max-width: 1160px) {
-  .nav-menu {
-    display: none;
-  }
-  .site-header .inner-wrap {
-    justify-content: center;
-  }
-  .hamburger,
-  .nav-menu .search {
-    display: block;
-  }
-}
-
 .page-header {
   padding-top: 40px;
 }
@@ -270,6 +257,42 @@ a.show-me-everything {
   border: 2px solid rgb(42, 43, 42);
   border-radius: 4px;
 }
+
+@media screen and (max-width: 1160px) {
+  
+  .nav-menu {
+    display: none;
+  }
+  
+  .site-header .inner-wrap {
+    justify-content: center;
+  }
+  
+  .hamburger,
+  .nav-menu .search {
+    display: block;
+  }
+
+  .latest-recipes .inner-wrap .top {
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  
+  .page-header .left,
+  .page-header .right {
+    display: none;
+  }
+
+  .page-header .wrap {
+    justify-content: center;
+  }
+
+  /* switch Pick of The Week orientation  */
+}
+
 
 
 /* font-family: 'Courier New', monospace; */
