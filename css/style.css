@@ -96,7 +96,7 @@ a:hover {
   padding: 14px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1160px) {
   .nav-menu {
     display: none;
   }
@@ -137,7 +137,82 @@ a.show-me-everything {
   margin-left: 8px;
 }
 
+.page-body {
+  padding: 40px 0px;
+}
 
+.latest-recipes {
+  padding-bottom: 40px;
+}
+
+.page-body .wrap {
+  display: block;
+}
+
+.page-body .inner-wrap {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+
+}
+
+.page-body .inner-wrap .top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.page-body .inner-wrap .bottom {
+  align-self: center;
+  margin-top: 30px;
+}
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+}
+
+.tags {
+  display: flex;
+}
+
+.tags a {
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin-left: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.tags a:nth-child(1) {
+  margin-left: 0;
+  background-color: #f74639;
+}
+
+.tags a:nth-child(2) {
+  background-color: #d56638;
+}
+
+.tags a:nth-child(3) {
+  background-color: #003811;
+}
+
+.tags a:nth-child(4) {
+  background-color: #2a2b2a;
+}
+
+.latest-recipes .show-me-everything {
+  color: rgb(234 84 85);
+}
 
 /* font-family: 'Courier New', monospace; */
 
