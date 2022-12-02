@@ -142,7 +142,7 @@ a.show-me-everything {
 }
 
 .latest-recipes {
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .page-body .wrap {
@@ -173,7 +173,10 @@ a.show-me-everything {
   flex-direction: column;
   align-items: center;
   gap: 12px;
+}
 
+.recipe h3 {
+  font-size: 1.25rem;
 }
 
 .tags {
