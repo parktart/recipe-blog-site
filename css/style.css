@@ -69,11 +69,34 @@ button.search-submit {
 
 a {
   text-decoration: none;
+  color: rgb(42, 43, 42);
 }
 
 .top-bar-social a {
   margin-left: 16px;
 }
+
+.site-header .outer-wrap {
+  /* height: 50px; */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.site-header .wrap {
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(42, 43, 42);
+
+}
+
+.nav-menu a {
+  padding: 14px;
+}
+
+
+
 
 /* font-family: 'Courier New', monospace; */
 
