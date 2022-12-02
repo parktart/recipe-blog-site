@@ -21,8 +21,7 @@ body {
   background-color: rgba(234, 83, 83, 0.24);
 }
 
-.top-bar .wrap {
-  /* height: 50px; */
+.wrap {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 16px;
@@ -81,20 +80,16 @@ a:hover {
   margin-left: 16px;
 }
 
-.site-header .outer-wrap {
-  /* height: 50px; */
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 16px;
+.site-header .wrap {
+  display: block;
 }
 
-.site-header .wrap {
+.site-header .inner-wrap {
   padding: 16px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 2px solid rgb(42, 43, 42);
-
 }
 
 .nav-menu a {
@@ -105,7 +100,7 @@ a:hover {
   .nav-menu {
     display: none;
   }
-  .site-header .wrap {
+  .site-header .inner-wrap {
     justify-content: center;
   }
   .hamburger,
@@ -117,22 +112,13 @@ a:hover {
 .page-header {
   padding-top: 40px;
 }
-.page-header .wrap {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 16px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* border-bottom: 2px solid rgb(42, 43, 42); */
-}
 
 .page-header .left {
   display: flex;
   font-weight: bold;
 }
 
-.left img {
+.page-header .left img {
   margin-right: 20px;
 }
 
@@ -140,13 +126,14 @@ a:hover {
   font-size: 36px;
 }
 
-a.show-me {
+a.show-me-everything {
   display: flex;
   align-items: center;
   font-family: 'Courier New', monospace;
+  font-size: 1.125rem;
 }
 
-.show-me img {
+.show-me-everything img {
   margin-left: 8px;
 }
 
