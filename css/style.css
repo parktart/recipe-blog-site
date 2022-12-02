@@ -15,6 +15,7 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: rgb(42, 43, 42);
 }
 
 .top-bar {
@@ -116,6 +117,7 @@ a:hover {
 .page-header .left {
   display: flex;
   font-weight: bold;
+  font-family: 'Courier New', monospace;
 }
 
 .page-header .left img {
@@ -152,7 +154,6 @@ a.show-me-everything {
 .latest-recipes .inner-wrap {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
 }
 
 .latest-recipes .inner-wrap .top {
@@ -231,8 +232,18 @@ a.show-me-everything {
   justify-content: space-between;
 }
 
+.pick-of-the-week .right {
+  flex-basis: 50%;
+}
+
+.pick-of-the-week img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
 .pick-of-the-week .left {
-  color: #2a2b2a;
   padding: 80px;
   display: flex;
   flex-direction: column;
@@ -240,6 +251,7 @@ a.show-me-everything {
   align-items: center;
   gap: 20px;
   text-align: center;
+  flex: 1;
 }
 
 .pick-of-the-week .left p {
@@ -255,7 +267,7 @@ a.show-me-everything {
   font-family: 'Courier New', monospace;
   font-size: 18px;
   padding: 16px 32px;
-  border: 2px solid #2a2b2a;
+  border: 2px solid rgb(42, 43, 42);
   border-radius: 4px;
 }
 
