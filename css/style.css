@@ -123,31 +123,21 @@ a.show-me-everything {
   margin-left: 8px;
 }
 
-.page-body {
-  padding: 40px 0px;
-}
-
-.latest-recipes {
+.latest-recipes.wrap {
+  padding-top: 40px;
   padding-bottom: 60px;
-}
-
-.latest-recipes .wrap {
-  display: block;
-}
-
-.latest-recipes .inner-wrap {
-  display: flex;
   flex-direction: column;
+  align-items: stretch;
 }
 
-.latest-recipes .inner-wrap .top {
+.latest-recipes .top {
   display: flex;
   justify-content: space-between;
   gap: 12px;
   flex-wrap: wrap;
 }
 
-.latest-recipes .inner-wrap .bottom {
+.latest-recipes .bottom {
   align-self: center;
   margin-top: 30px;
 }
@@ -279,7 +269,7 @@ a.show-me-everything {
     display: block;
   }
 
-  .latest-recipes .inner-wrap .top {
+  .latest-recipes .top {
     justify-content: center;
     gap: 30px;
   }
