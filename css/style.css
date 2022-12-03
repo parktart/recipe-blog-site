@@ -260,6 +260,15 @@ a.show-me-everything {
 
 @media screen and (max-width: 1160px) {
   
+  .top-bar-search {
+    display: none;
+  }
+
+  .top-bar .wrap {
+    justify-content: center;
+    height: 45px;
+  }
+
   .nav-menu {
     display: none;
   }
