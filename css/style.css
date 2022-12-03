@@ -6,9 +6,6 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;  /* Alternative Box Model */
-}
-
-* {
   margin: 0;
   padding: 0;
 }
@@ -16,6 +13,16 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   color: rgb(42, 43, 42);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(42, 43, 42);
+  font-weight: bold;
+}
+
+a:hover {
+  opacity: 0.7;
 }
 
 .top-bar {
@@ -45,10 +52,7 @@ input.search-field {
   width: 280px;
   font-family: 'Courier New', monospace;
   background-color: inherit;
-  padding-top: 16px;
-  padding-right: 12px;
-  padding-bottom: 16px;
-  padding-left: 44px;
+  padding: 16px 12px 16px 44px;
   border-color: rgba(0, 0, 0, 0);
   border-radius: 0.5rem;
   outline: none;
@@ -58,7 +62,6 @@ input.search-field {
 
 input.search-field:focus {
   background-color: white;
-  /* background-color: transparent; */
   border-color: gold;
 }
 
@@ -75,16 +78,6 @@ button.search-submit:active {
 
 .top-bar-search img {
   background-color: inherit;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(42, 43, 42);
-  font-weight: bold;
-}
-
-a:hover {
-  opacity: 0.7;
 }
 
 .top-bar-social a {
@@ -133,7 +126,7 @@ a.show-me-everything {
   padding-top: 40px;
   padding-bottom: 60px;
   flex-direction: column;
-  align-items: stretch;
+  align-items: initial;
 }
 
 .latest-recipes .top {
@@ -173,7 +166,6 @@ a.show-me-everything {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .tags a:nth-child(1) {
@@ -203,11 +195,11 @@ a.show-me-everything {
   box-shadow: 3px 3px 10px 0 rgb(0 0 0 / 20%);
 }
 
-.pick-of-the-week .right {
+.pick-of-the-week .right { /* make div holding image 50% of wrap width */
   flex-basis: 50%;
 }
 
-.pick-of-the-week img {
+.pick-of-the-week img { /* make image fill that div */
   object-fit: cover;
   max-width: 100%;
   height: auto;
@@ -222,7 +214,7 @@ a.show-me-everything {
   align-items: center;
   gap: 20px;
   text-align: center;
-  flex: 1;
+  flex: 1; /* flex proportionally to right div, which takes up 50% of wrap */
 }
 
 .pick-of-the-week .left p {
