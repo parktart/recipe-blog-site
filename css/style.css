@@ -275,7 +275,18 @@ a.show-me-everything {
     justify-content: center;
   }
 
-  /* switch Pick of The Week orientation here */
+  .pick-of-the-week.wrap {
+    flex-direction: column;
+  }
+
+  .pick-of-the-week .left {
+    padding: 30px;
+  }
+
+  .pick-of-the-week .right {
+    margin: 20px;
+    margin-top: -10px;
+  }
 }
 
 
