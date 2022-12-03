@@ -234,6 +234,43 @@ a.show-me-everything {
   border-radius: 4px;
 }
 
+.more-recipes.wrap {
+  background-color: rgb(234 83 83 / 24%);
+  padding: 30px;
+  /* margin-bottom: 40px; */
+  margin-bottom: 1000px;
+}
+
+.more-recipes h4 {
+  font-size: 28px;
+}
+
+.more-recipes p {
+  font-size: 1.125rem;
+  padding: 0 60px;
+}
+
+.more-recipes input {
+  font-family: 'Courier New', monospace;
+  padding: 16px 12px;
+  outline: none;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.more-recipes button {
+  font-family: 'Courier New', monospace;
+  padding: 15px 12px;
+  border: none;
+  background-color: rgb(234 84 85);
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.more-recipes button:active {
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 1160px) {
   
   .top-bar-search {
