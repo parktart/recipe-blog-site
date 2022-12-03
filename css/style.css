@@ -191,19 +191,10 @@ a.show-me-everything {
   color: rgb(234 84 85);
 }
 
-.pick-of-the-week {
+.pick-of-the-week.wrap {
   margin-bottom: 40px;
-}
-
-.pick-of-the-week .wrap {
-  display: block;
-}
-
-.pick-of-the-week .inner-wrap {
   background-color: #fbf8f3;
   box-shadow: 3px 3px 10px 0 rgb(0 0 0 / 20%);
-  display: flex;
-  justify-content: space-between;
 }
 
 .pick-of-the-week .right {
@@ -286,7 +277,7 @@ a.show-me-everything {
     justify-content: center;
   }
 
-  /* switch Pick of The Week orientation  */
+  /* switch Pick of The Week orientation here */
 }
 
 
