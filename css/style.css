@@ -237,8 +237,7 @@ a.show-me-everything {
 .more-recipes.wrap {
   background-color: rgb(234 83 83 / 24%);
   padding: 30px;
-  /* margin-bottom: 40px; */
-  margin-bottom: 1000px;
+  margin-bottom: 40px;
 }
 
 .more-recipes h4 {
@@ -273,6 +272,12 @@ a.show-me-everything {
 
 .more-recipes .email-input {
   display: flex;
+}
+
+.explore {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 1160px) {
