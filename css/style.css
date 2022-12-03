@@ -58,6 +58,7 @@ input.search-field {
 
 input.search-field:focus {
   background-color: white;
+  /* background-color: transparent; */
   border-color: gold;
 }
 
@@ -65,6 +66,11 @@ button.search-submit {
   border: none;
   background-color: inherit;
   margin-right: -32px;
+  z-index: 1;
+}
+
+button.search-submit:active {
+  opacity: 0.5;
 }
 
 .top-bar-search img {
