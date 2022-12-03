@@ -94,7 +94,7 @@ a:hover {
   padding: 14px;
 }
 
-.page-header {
+.page-header.wrap {
   padding-top: 40px;
 }
 
@@ -292,7 +292,7 @@ a.show-me-everything {
     display: none;
   }
 
-  .page-header .wrap {
+  .page-header.wrap {
     justify-content: center;
   }
 
