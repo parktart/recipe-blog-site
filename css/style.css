@@ -85,15 +85,8 @@ a:hover {
   margin-left: 16px;
 }
 
-.site-header .wrap {
-  display: block;
-}
-
-.site-header .inner-wrap {
+.site-header.wrap {
   padding: 16px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   border-bottom: 2px solid rgb(42, 43, 42);
 }
 
@@ -277,7 +270,7 @@ a.show-me-everything {
     display: none;
   }
   
-  .site-header .inner-wrap {
+  .site-header.wrap {
     justify-content: center;
   }
   
