@@ -22,10 +22,14 @@ body {
   background-color: rgba(234, 83, 83, 0.24);
 }
 
-.wrap {
+.top-bar .wrap,
+.margin-auto-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 16px;
+}
+
+.wrap {
   display: flex;
   align-items: center;
   justify-content: space-between;
