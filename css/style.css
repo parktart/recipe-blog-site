@@ -271,6 +271,10 @@ a.show-me-everything {
   opacity: 0.5;
 }
 
+.more-recipes .email-input {
+  display: flex;
+}
+
 @media screen and (max-width: 1160px) {
   
   .top-bar-search {
@@ -323,6 +327,12 @@ a.show-me-everything {
   .pick-of-the-week .right {
     margin: 20px;
     margin-top: -10px;
+  }
+
+  .more-recipes.wrap {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
   }
 }
 
