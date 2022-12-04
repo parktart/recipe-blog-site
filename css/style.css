@@ -281,7 +281,7 @@ a.all-recipes-link {
 }
 
 .categories.wrap {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   gap: 8px;
   flex-wrap: wrap;
 }
@@ -315,10 +315,13 @@ a.all-recipes-link {
   border: 2px solid #2a2b2a;
 }
 
-.latest-recipes.explore-recipes .top {
+.explore-recipes .top {
   column-gap: 8px;
   row-gap: 30px;
+}
 
+.explore-recipes .bottom {
+  margin-top: 40px;
 }
 
 @media screen and (max-width: 1160px) {
