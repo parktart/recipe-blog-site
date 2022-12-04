@@ -382,11 +382,8 @@ a.all-recipes-link {
 .find-us-elsewhere.wrap {
   font-family: "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
   flex-direction: column;
-  height: 200px;
   padding: 50px 0;
   gap: 30px;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .find-us-elsewhere h4 {
@@ -406,8 +403,8 @@ a.all-recipes-link {
   align-items: baseline;
   justify-content: space-between;
   gap: 8px;
-  /* flex-grow: 1; */
-  /* flex-basis: 200px; */
+  flex: 1;
+  min-width: 200px;
 }
 
 .socials-stats p {
