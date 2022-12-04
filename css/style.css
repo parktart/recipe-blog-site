@@ -333,7 +333,6 @@ a.all-recipes-link {
   align-items: center;
   height: 600px;
   background-image: url(./../img/converted/vegetable-banner.jpg);
-  margin-bottom: 300px;
 }
 
 .logo-circle {
@@ -371,6 +370,69 @@ a.all-recipes-link {
   z-index: 1;
   padding-top: 15px;
 }
+
+
+
+
+.tan-background {
+  background-color: rgb(250, 247, 242);
+  height: 400px;
+}
+
+.find-us-elsewhere.wrap {
+  font-family: "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  flex-direction: column;
+  height: 200px;
+  padding: 50px 0;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.find-us-elsewhere h4 {
+  font-family: 'Courier New', monospace;
+  font-weight: normal;
+  font-size: 1.125rem;
+}
+
+.find-us-elsewhere .socials-stats {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.find-us-elsewhere .socials-stats div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  /* flex-grow: 1; */
+  /* flex-basis: 200px; */
+}
+
+.socials-stats p {
+  font-size: ;
+}
+
+.socials-stats span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.find-us-elsewhere .socials-stats div:nth-child(1) {
+  border-bottom: 4px solid rgb(234 84 85);
+}
+
+.find-us-elsewhere .socials-stats div:nth-child(2) {
+  border-bottom: 4px solid rgb(234 83 83 / 24%);
+}
+
+.find-us-elsewhere .socials-stats div:nth-child(3) {
+  border-bottom: 4px solid rgb(241 131 132);
+}
+
+
+
 
 
 @media screen and (max-width: 1160px) {
