@@ -185,7 +185,8 @@ a.all-recipes-link {
   background-color: #2a2b2a;
 }
 
-.latest-recipes .all-recipes-link {
+.latest-recipes .all-recipes-link,
+.veggie-banner .all-recipes-link {
   color: rgb(234 84 85);
 }
 
@@ -325,21 +326,51 @@ a.all-recipes-link {
   margin-top: 40px;
 }
 
-
 .veggie-banner {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 600px;
   background-image: url(./../img/converted/vegetable-banner.jpg);
-  margin-bottom: 500px;
+  margin-bottom: 300px;
 }
 
-.veggies {
-  font-size: 52px;
+.logo-circle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
   color: white;
+  background-color: rgb(42, 43, 42);
+  border: 20px solid white;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -40px;
+  z-index: 1;
 }
 
+.shop {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 30px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+}
+
+.shop h2 {
+  font-family: 'Courier New', monospace;
+  font-size: 46px;
+  font-weight: 300;
+  z-index: 1;
+  padding-top: 15px;
+}
 
 
 @media screen and (max-width: 1160px) {
