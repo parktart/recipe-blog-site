@@ -254,6 +254,7 @@ a.all-recipes-link {
   padding: 16px 12px;
   outline: none;
   border-color: rgba(0, 0, 0, 0);
+  border-radius: none;
 }
 
 .more-recipes button {
