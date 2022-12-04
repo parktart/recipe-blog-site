@@ -439,7 +439,10 @@ a.all-recipes-link {
   .explore-recipes .top div:nth-child(n+5) {
     display: none;
   }
-  
+
+  .veggie-banner {
+    display: none;
+  }
 }
 
 
