@@ -398,7 +398,7 @@ a.all-recipes-link {
   flex-wrap: wrap;
 }
 
-.find-us-elsewhere .socials-stats div {
+.find-us-elsewhere .socials-stats a {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -416,15 +416,15 @@ a.all-recipes-link {
   font-weight: bold;
 }
 
-.find-us-elsewhere .socials-stats div:nth-child(1) {
+.find-us-elsewhere .socials-stats a:nth-child(1) {
   border-bottom: 4px solid rgb(234 84 85);
 }
 
-.find-us-elsewhere .socials-stats div:nth-child(2) {
+.find-us-elsewhere .socials-stats a:nth-child(2) {
   border-bottom: 4px solid rgb(234 83 83 / 24%);
 }
 
-.find-us-elsewhere .socials-stats div:nth-child(3) {
+.find-us-elsewhere .socials-stats a:nth-child(3) {
   border-bottom: 4px solid rgb(241 131 132);
 }
 
