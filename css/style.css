@@ -89,8 +89,11 @@ button.search-submit:active {
   border-bottom: 2px solid rgb(42, 43, 42);
 }
 
-.nav-menu a {
+.nav-menu a,
+.footer-links a {
   padding: 14px;
+  font-size: 1.25rem;
+  font-weight: normal;
 }
 
 .page-header.wrap {
@@ -99,8 +102,11 @@ button.search-submit:active {
 
 .page-header .left {
   display: flex;
-  font-weight: bold;
+}
+
+.header-slogan {
   font-family: 'Courier New', monospace;
+  font-weight: bold;
 }
 
 .page-header .left img {
@@ -378,9 +384,9 @@ a.all-recipes-link {
 
 
 
+
 .tan-background {
   background-color: rgb(250, 247, 242);
-  height: 400px;
 }
 
 .find-us-elsewhere.wrap {
@@ -412,12 +418,11 @@ a.all-recipes-link {
 }
 
 .socials-stats p {
-  font-size: ;
+  /* font-size: ; */
 }
 
 .socials-stats span {
   font-size: 30px;
-  font-weight: bold;
 }
 
 .find-us-elsewhere .socials-stats a:nth-child(1) {
@@ -432,9 +437,31 @@ a.all-recipes-link {
   border-bottom: 4px solid rgb(241 131 132);
 }
 
+.footer-top.wrap {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid rgba(42, 43, 42, 0.8);  
+}
 
+.footer-top a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: normal;
+}
 
+.footer-links.wrap {
+  padding: 30px 0;
+  justify-content: center;
+  gap: 24px;
+}
 
+.footer-links-two.wrap {
+  padding-bottom: 40px;
+  justify-content: center;
+  gap: 24px;
+  font-size: 0.875rem;
+}
 
 @media screen and (max-width: 1160px) {
   
@@ -499,12 +526,23 @@ a.all-recipes-link {
 
 @media screen and (max-width: 884px) {
 
-  .explore-recipes .top div:nth-child(n+5) {
-    display: none;
-  }
-
+  .explore-recipes .top div:nth-child(n+5),
   .veggie-banner {
     display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .footer-top.wrap {
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 0; 
+  }
+
+  .footer-links.wrap,
+  .footer-links-two.wrap {
+    flex-direction: column;
   }
 }
 
