@@ -465,6 +465,7 @@ a.all-recipes-link {
 
 @media screen and (max-width: 1160px) {
   
+  /*
   .top-bar-search {
     display: none;
   }
@@ -472,6 +473,11 @@ a.all-recipes-link {
   .top-bar .wrap {
     justify-content: center;
     height: 45px;
+  }
+  */
+
+  .top-bar-social a {
+    margin-left: 8px;
   }
 
   .nav-menu {
