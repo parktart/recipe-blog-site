@@ -65,6 +65,10 @@ input.search-field:focus {
   border-color: gold;
 }
 
+input[type=search] { /* prevents another magnifying glass from showing up in search fields - Safari iOS 15 */
+  -webkit-appearance: none;
+}
+
 button.search-submit {
   border: none;
   background-color: inherit;
