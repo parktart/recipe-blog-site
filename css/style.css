@@ -15,6 +15,12 @@ body {
   color: rgb(42, 43, 42);
 }
 
+img, picture, svg, video {
+  display: block; /* remove the small whitespace that renders under each */
+  max-width: 100%; /* allow to shrink w its container when forced */
+  max-height: 100%; /* allow to shrink w its container when forced */
+}
+
 a {
   text-decoration: none;
   color: rgb(42, 43, 42);
