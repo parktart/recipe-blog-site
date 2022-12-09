@@ -342,7 +342,13 @@ a.all-recipes-link {
   justify-content: center;
   align-items: center;
   height: 600px;
-  background-image: url(./../img/converted/vegetable-banner.jpg);
+  background-color: darkgray;
+  /* background-image: url(./../img/converted/vegetable-banner.jpg); */
+  /* background-image: url(./../img/converted/vegetable-banner-1200.jpg); */
+  background-image: url(./../img/converted/vegetable-banner-2400.jpg);
+  background-size: cover;
+  background-position: center;
+  
 }
 
 .logo-circle {
