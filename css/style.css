@@ -16,9 +16,8 @@ body {
 }
 
 img, picture, svg, video {
-  display: block; /* remove the small whitespace that renders under each */
   max-width: 100%; /* allow to shrink w its container when forced */
-  max-height: 100%; /* allow to shrink w its container when forced */
+  height: auto;
 }
 
 a {
@@ -216,11 +215,8 @@ a.all-recipes-link {
   flex-basis: 50%;
 }
 
-.pick-of-the-week img { /* make image fill that div */
-  object-fit: cover;
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
+.pick-of-the-week img {
+  display: block; /* get rid of white space below image */
 }
 
 .pick-of-the-week .left {
