@@ -486,7 +486,11 @@ a.all-recipes-link {
   */
 
   .top-bar-social a {
-    margin-left: 8px;
+    margin-left: 2px;
+  }
+
+  .top-bar-social a:nth-child(2) {
+    margin-left: 6px;
   }
 
   .nav-menu {
