@@ -345,12 +345,24 @@ a.all-recipes-link {
   align-items: center;
   height: 600px;
   background-color: darkgray;
-  /* background-image: url(./../img/converted/vegetable-banner.jpg); */
-  /* background-image: url(./../img/converted/vegetable-banner-1200.jpg); */
-  /* background-image: url(./../img/converted/vegetable-banner-2400.jpg); */
-  background-image: url(./../img/w3bp2/vegetable-banner.webp);
   background-size: cover;
   background-position: center;
+}
+
+.no-js .veggie-banner {
+  background-image: url(./../img/converted/vegetable-banner.jpg);
+  /* background-image: url(./../img/converted/vegetable-banner-1200.jpg); */
+  /* background-image: url(./../img/converted/vegetable-banner-2400.jpg); */
+}
+
+.no-webp .veggie-banner {
+  background-image: url(./../img/converted/vegetable-banner.jpg);
+  /* background-image: url(./../img/converted/vegetable-banner-1200.jpg); */
+  /* background-image: url(./../img/converted/vegetable-banner-2400.jpg); */
+}
+
+.webp .veggie-banner {
+  background-image: url(./../img/w3bp2/vegetable-banner.webp);
 }
 
 .logo-circle {

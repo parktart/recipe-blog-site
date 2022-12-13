@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,6 +22,10 @@
   </head>
 
   <body>
+    <script>document.documentElement.classList.remove("no-js");</script>
+    <!-- removes the .no-js class from the html element if browser has javascript enabled -->
+    <script src="detect-webp.js"></script>
+    <!-- detects if browser supports WebP and assigns class .webp or .no-webp to the html element - used to determine which background image to serve (see css) -->
 
     <div class="top-bar">
       <div class="wrap">
