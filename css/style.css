@@ -89,6 +89,15 @@ button.search-submit:active {
   background-color: inherit;
 }
 
+.top-bar-social {
+  display: flex;
+  align-items: center;
+}
+
+.top-bar-social img {
+  display: block;
+}
+
 .top-bar-social a {
   margin-left: 16px;
 }
@@ -505,7 +514,7 @@ a.all-recipes-link {
   }
 
   .top-bar-social a:nth-child(2) {
-    margin-left: 10px;
+    margin-left: 14px;
   }
 
   .nav-menu {
