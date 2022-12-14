@@ -114,6 +114,24 @@ button.search-submit:active {
   font-weight: normal;
 }
 
+.site-logo {
+  font-family: 'Bungee', cursive;
+  color: white;
+  background-color: rgb(234 84 85);
+  padding: 10px 16px 4px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.site-logo div:nth-child(1) {
+  font-size: 36px;
+}
+
+.site-logo div:nth-child(2) {
+  font-size: 68px;
+  letter-spacing: 4px;
+}
+
 .page-header.wrap {
   padding-top: 40px;
 }
