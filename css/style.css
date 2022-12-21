@@ -121,6 +121,7 @@ button.search-submit:active {
   padding: 10px 16px 4px;
   border-radius: 16px;
   text-align: center;
+  text-shadow: -3px -3px 1px black;
 }
 
 .site-logo div:nth-child(1) {
