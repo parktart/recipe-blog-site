@@ -1,5 +1,7 @@
 # recipe-blog-site
 
+Live: https://parktart.github.io/recipe-blog-site/
+
 Mock Food Blog Site
 
 Since I'm deep into learning JavaScript right now, I want to go back and practice my HTML and CSS skills by making a mock food blog site. I want to focus on building out a site based on a given design and so I'll use [Minimalist Baker](https://minimalistbaker.com/) as a reference.
