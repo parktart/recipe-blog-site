@@ -92,14 +92,11 @@ button.search-submit:active {
 .top-bar-social {
   display: flex;
   align-items: center;
+  gap: 12px;
 }
 
 .top-bar-social img {
   display: block;
-}
-
-.top-bar-social a {
-  margin-left: 16px;
 }
 
 .site-header.wrap {
@@ -551,14 +548,6 @@ a.all-recipes-link {
   }
   */
 
-  .top-bar-social a {
-    margin-left: 4px;
-  }
-
-  .top-bar-social a:nth-child(2) {
-    margin-left: 14px;
-  }
-
   .nav-menu {
     display: none;
   }
@@ -628,6 +617,10 @@ a.all-recipes-link {
   .footer-links.wrap,
   .footer-links-two.wrap {
     flex-direction: column;
+  }
+
+  input.search-field {
+    width: 200px;
   }
 }
 
