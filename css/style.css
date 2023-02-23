@@ -124,6 +124,10 @@ button.search-submit:active {
   text-shadow: -3px -3px 1px black;
 }
 
+.Windows .site-logo {
+  font-family: cursive; /* Windows OS displays unwanted behavior with Bungee font */
+}
+
 .site-logo div:nth-child(1) {
   font-size: 36px;
 }
